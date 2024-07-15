@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.ytimg.com/vi/-R0uP1GSxbE/maxresdefault.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: absolute;
+}
+
+form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 500px;
+    opacity: 0.8;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=email], input[type=phone], input[type=address], input[type=applied_program] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
